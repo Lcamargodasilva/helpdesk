@@ -40,7 +40,8 @@ public class Cliente extends Pessoa {
 		this.perfis = obj.getPerfis().stream().map(x -> x.getCodigo()).collect(Collectors.toSet());
 		this.dataCriacao = obj.getDataCriacao();
 	}
-
+	
+	
 	public List<Chamado> getChamados() {
 		return chamados;
 	}
