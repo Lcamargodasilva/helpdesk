@@ -24,6 +24,7 @@ public enum Prioridade {
 		if (cod == null) {
 			return null;
 		}
+
 		for (Prioridade x : Prioridade.values()) {
 			if (cod.equals(x.getCodigo())) {
 				return x;
