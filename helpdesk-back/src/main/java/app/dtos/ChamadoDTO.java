@@ -3,10 +3,11 @@ package app.dtos;
 import java.io.Serializable;
 import java.time.LocalDate;
 
+import javax.validation.constraints.NotNull;
+
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import app.entities.Chamado;
-import jakarta.validation.constraints.NotNull;
 
 public class ChamadoDTO implements Serializable {
 
